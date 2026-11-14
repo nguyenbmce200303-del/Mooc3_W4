@@ -24,13 +24,17 @@ body {
 }
 
 .gallery {
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+/* Định dạng bắt buộc để ảnh hiển thị rõ ràng */
 .preview {
-    width: 100px;
-    height: 70px;
+    width: 120px;
+    height: 80px;
     object-fit: cover;
     margin: 10px;
     cursor: pointer;
