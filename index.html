@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thư viện ảnh tương tác - Khả năng truy cập</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Thư viện ảnh tương tác (Hỗ trợ truy cập)</h1>
+
+    <div id="image">
+        Di chuột qua hoặc dùng phím Tab để chọn hình ảnh bên dưới.
+    </div>
+
+    <div class="gallery">
+        <img class="preview" src="images/anh1.jpg" alt="Bãi biển nhiệt đới xanh mát dưới ánh nắng vàng." onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        <img class="preview" src="images/anh2.jpg" alt="Ngọn núi hùng vĩ phủ đầy tuyết trắng vào mùa đông." onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        <img class="preview" src="images/anh3.jpg" alt="Khu rừng nguyên sinh rợp bóng cây xanh mát." onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        <img class="preview" src="images/anh4.jpg" alt="Thành phố lớn lung linh ánh đèn về đêm." onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        <img class="preview" src="images/anh5.jpg" alt="Cánh đồng hoa oải hương tím ngát trải dài." onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        <img class="preview" src="images/anh6.jpg" alt="Hoàng hôn trên biển rực rỡ sắc cam." onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
